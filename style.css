@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container {
+background-color: #000000;
+}
+
+#nav-bar {
+    box-sizing: border-box;
+    position: fixed;
+    width: 1728px;
+    height: 87px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+#nav-bar .nav {
+    display: flex;
+    color: white;
+    margin-top: 21px;
+    height: 38px;
+    justify-content: space-between;
+}
+
+.right {
+    position: absolute;
+    left: 905px;
+    background-color: #000000;
+}
+
+.nav .right,
+.special {
+    display: flex;
+    text-decoration: none;
+}
+
+.right-special {
+    padding-right: 31px;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 29px;
+    text-decoration: none;
+}
+
+.left {
+    position: absolute;
+    font-weight: 300;
+    font-size: 24px;
+    left: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 29px;
+}
+
+.special li {
+    color: black;
+}
+
+.special .right-special,
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media (min-width:1024px){
+    #nav-bar{
+        background-color: blue;
+        height: 60px;
+    }
+    .left {
+        position: absolute;
+        font-weight: 300;
+        font-size: 12px;
+        left: 28px;
+        font-family: 'Inter';
+        font-style: normal;
+        line-height: 29px;
+    }
+}
+#main {
+    position: absolute;
+    width: 1728px;
+    height: 1030px;
+    left: 0px;
+    top: 87px;
+    background: #000000;
+}
+
+.fade-in-text {
+    font-family: Arial;
+    font-size: 150px;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        background-color: aqua;
+    }
+
+    100% {
+        background-color: blue;
+    }
+}
+
+#main .main-class,
+.d {
+    position: absolute;
+    left: 96px;
+    top: 229px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 242px;
+    color: #FFFFFF;
+    width: 2px;
+}
+
+.fade-in-image {
+    position: absolute;
+    width: 734px;
+    height: 395px;
+    left: 994px;
+    top: 602px;
+    animation: fadeIn 2s;
+    padding: 2px 51px
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/*section on about*/
+#sec{
+    position: absolute;
+    height:400px;
+    width: 100%;
+    top: 1294px;
+}
+#sec .image,.abt{
+    display: flex;
+}
+.image img{
+    width: 572px;
+    height: 726px;
+    left: 89px;
+    top: 1523px;
+}
+.abt {
+    position: absolute;
+    width: 912px;
+    height: 921px;
+    left: 747px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 49px;
+    color: #000000;
+    display: block;
+}
+h3{
+    font-weight: 700;
+    font-size: 100px;
+}
+.text{
+    margin: 13px 11px;
+    padding: 45px 0px;
+}
+.main-cc{
+   display: flex;
+   justify-content: space-between;
+}
+.abt1{
+    height: 232px;
+    width: 302px;
+    margin: 39px 3px;
+    padding: 33px 27px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.h{
+    font-size: 37px;
+}
+.text1{
+   padding: 19px; 
+}
+h1{
+    font-size: 59px;
+    padding: 35px 14px
+}
+.abt1:hover{
+    background-color: #000000;
+    color: white;
+}
+.fo{
+    background-color: #0c0b0b;
+    height: 501px;
+    position: absolute;
+    top: 2526px;
+    width: 100%;
+}
+#contact{
+    position: relative;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+}
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box input,
+#contact-box{
+    width: 100%;
+    padding: 0.4rem;
+    margin: 0.2rem;
+    font-size: 1.0rem;
+    background-color: #000000;
+}
+.form-group{
+    margin: 11px;
+}
+.submit-btn{
+    background-color: #FFFFFF;
+    color:black;
+    padding: 24px ;
+}
+@media 
+
